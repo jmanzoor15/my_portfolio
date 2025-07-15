@@ -1,0 +1,114 @@
+.mywork {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+  margin: 80px 10%;
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 20px;
+  box-shadow: 0 4px 40px rgba(0, 0, 0, 0.2);
+  color: white;
+  backdrop-filter: blur(10px);
+}
+
+.mywork-title {
+  position: relative;
+  text-align: center;
+}
+
+.mywork-title h1 {
+  font-size: 72px;
+  font-weight: 700;
+  background: linear-gradient(264deg, #df8908, #b415ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+.mywork-title img {
+  position: absolute;
+  bottom: -20px;
+  right: -20px;
+  width: 140px;
+  opacity: 0.15;
+  z-index: -1;
+}
+
+.mywork-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+  width: 100%;
+}
+
+.work-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  padding: 20px;
+  border: 1.5px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  transition: all 0.4s ease;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  backdrop-filter: blur(12px);
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.work-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  background: linear-gradient(145deg, #2d003f, #3f1b00);
+  border-color: rgba(255, 0, 255, 0.3);
+}
+
+.work-card img {
+  width: 100%;
+  height: 200px;
+  border-radius: 14px;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.work-card:hover img {
+  transform: scale(1.05);
+}
+
+.mywork-showmore {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 20px 50px;
+  font-size: 20px;
+  font-weight: 600;
+  border: 2px solid #ffffff;
+  border-radius: 50px;
+  transition: all 0.4s ease;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.mywork-showmore:hover {
+  gap: 25px;
+  background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
+  color: #fff;
+  border-color: transparent;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .mywork {
+    margin: 40px 20px;
+    padding: 20px;
+    gap: 60px;
+  }
+
+  .mywork-title h1 {
+    font-size: 48px;
+  }
+
+  .work-card img {
+    height: 180px;
+  }
+}
