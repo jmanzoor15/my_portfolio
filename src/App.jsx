@@ -1,24 +1,15 @@
-import React from 'react'
-import Navbar from './components/Nav bar/Navbar'
-import Hero from './components/Hero/Hero'
-import About from './components/About/About'
-import Services from './components/Service/Services'
-import MyWork from './components/MyWork/MyWork'
-import Contact from './components/Contact/Contact'
-import Footer from './components/Footer/Footer'
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import Home from './pages/Home';
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <Home />,
+  },
+]);
 
 const App = () => {
-  return (
-    <div>
-      <Navbar/>
-      <Hero/>
-      <About/>
-      <Services/>
-      <MyWork/>
-      <Contact/> 
-      <Footer/>
-      </div>
-  )
-}
+  return <RouterProvider router={router} />;
+};
 
-export default App
+export default App;

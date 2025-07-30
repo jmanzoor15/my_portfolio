@@ -39,6 +39,7 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 40px;
   width: 100%;
+  align-items: start;
 }
 
 .services-format {
@@ -77,13 +78,26 @@
   -webkit-text-fill-color: transparent;
 }
 
-.services-format p {
+.clamped {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #e0e0e0;
+  margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; 
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.expanded {
   font-size: 18px;
   line-height: 28px;
   font-weight: 400;
   color: #e0e0e0;
   margin: 0;
 }
+
 
 .services-readmore {
   display: flex;

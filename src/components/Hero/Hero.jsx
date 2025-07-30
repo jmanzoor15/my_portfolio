@@ -1,17 +1,21 @@
 import React from 'react';
 import './Hero.css';
-import profile_img from '../../assets/profile_img.svg';
+import portfolioData from '../../assets/portfolioData';
+import Myphoto from '../../assets/Myphoto.jpg'; // Or use portfolioData.profile.profileImage if dynamic
+import hero_profile from '../../assets/hero_profile.png'
 
 const Hero = () => {
+  const { name, location } = portfolioData.profile;
+  const aboutBrief = portfolioData.about.brief;
+  const aboutDetailed = portfolioData.about.detailed1;
+
   return (
     <div id="home" className="hero">
-      <img src={profile_img} alt="Profile" className="hero-img" />
+      <img src={hero_profile} alt="Profile" className="hero-img" />
       <h1>
-        <span>I'm Pranav,</span> frontend developer based in UAE
+        <span>{`I'm ${name},`}</span> frontend developer based in {location}
       </h1>
-      <p>
-        I’m Pranav P S, a passionate Frontend Developer with over a year of experience in building responsive and user-friendly applications. Skilled in React, React Native, Swift, Android, and Flutter, I’ve delivered multiple live projects across web and mobile platforms.
-      </p>
+      <p>{aboutDetailed}</p>
       <div className="hero-action">
         <div className="hero-connect">Connect with me</div>
         <div className="hero-resume">My Resume</div>

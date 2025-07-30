@@ -13,7 +13,7 @@ const Contact = () => {
     setResult("Sending...");
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "ca1dbaab-da88-4f8b-80e0-43dee187251b");
+    formData.append("access_key", "ff4921fc-5521-4cd4-aca7-b7f0aa442a1a");
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
@@ -48,11 +48,11 @@ const Contact = () => {
           <div className="contact-details">
             <div className="contact-detail">
               <img src={mail_icon} alt="Email Icon" />
-              <p>pranavputhoor91@gmail.com</p>
+              <p>junaidmir.dev@gmail.com</p>
             </div>
             <div className="contact-detail">
               <img src={call_icon} alt="Phone Icon" />
-              <p>+971-555130298</p>
+              <p>+971-562407539</p>
             </div>
             <div className="contact-detail">
               <img src={location_icon} alt="Location Icon" />
