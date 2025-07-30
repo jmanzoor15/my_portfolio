@@ -17,7 +17,8 @@ const portfolioData = {
     { name: "React Native", percentage: 80, icon: "react" },
     { name: "Next", percentage: 80, icon: "swift" },
     { name: "Nuxt", percentage: 85, icon: "android" },
-     { name: "Wordpress", percentage: 82, icon: "android" }
+    { name: "Wordpress", percentage: 82, icon: "android" },
+    { name: "Devops", percentage: 62, icon: "android" }
   ],
   stats: {
     experience: { value: "5+", label: "Years Experience", icon: "experience" },

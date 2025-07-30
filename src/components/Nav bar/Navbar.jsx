@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Navbar.css';
-import logo from '../../assets/logo.svg';
+import logo from '../../assets/logo-2.png';
 import underline from '../../assets/nav_underline.svg';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { FiMenu, FiX } from 'react-icons/fi';
