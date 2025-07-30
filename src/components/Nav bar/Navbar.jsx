@@ -24,7 +24,7 @@ const Navbar = () => {
         </div>
 
         <ul className="nav-menu">
-          {['home', 'about', 'services', 'mywork', 'contact'].map((item) => (
+          {['home', 'about', 'services', 'mywork', ''].map((item) => (
             <li key={item}>
               <AnchorLink className='anchor-link' href={`#${item}`} offset={50}>
                 <p onClick={() => handleMenuClick(item)}>
@@ -38,7 +38,7 @@ const Navbar = () => {
 
         <div className="nav-connect">
           <AnchorLink className='anchor-link' offset={50} href='#contact'>
-            Connect with Me
+            Get In Touch
           </AnchorLink>
         </div>
       </div>
@@ -58,7 +58,7 @@ const Navbar = () => {
           ))}
           <li className="drawer-connect">
             <AnchorLink className='anchor-link' offset={50} href='#contact'>
-             Get In Touch
+              Connect with Me
             </AnchorLink>
           </li>
         </ul>
