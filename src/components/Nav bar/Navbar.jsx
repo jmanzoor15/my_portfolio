@@ -28,7 +28,7 @@ const Navbar = () => {
             <li key={item}>
               <AnchorLink className='anchor-link' href={`#${item}`} offset={50}>
                 <p onClick={() => handleMenuClick(item)}>
-                  {item === 'mywork' ? 'Portfolio' : item.charAt(0).toUpperCase() + item.slice(1).replace('me', ' Me')}
+                  {item === 'mywork' ? 'My Work' : item.charAt(0).toUpperCase() + item.slice(1).replace('me', 'me')}
                 </p>
               </AnchorLink>
               {menu === item && <img src={underline} alt='' />}
@@ -50,15 +50,15 @@ const Navbar = () => {
             <li key={item}>
               <AnchorLink className='anchor-link' href={`#${item}`} offset={50}>
                 <p onClick={() => handleMenuClick(item)}>
-                  {item === 'mywork' ? 'Portfolio' : item.charAt(0).toUpperCase() + item.slice(1).replace('me', ' Me')}
+                  {item === 'mywork' ? 'My Work' : item.charAt(0).toUpperCase() + item.slice(1).replace('me', 'me')}
                 </p>
               </AnchorLink>
               {menu === item && <img src={underline} alt='' />}
             </li>
           ))}
           <li className="drawer-connect">
-            <AnchorLink className='anchor-link' offset={50} href='#contact'>
-              Connect with Me
+            <AnchorLink className='anchor-link' offset={50} href='#contact' onClick={() => handleMenuClick('contact')}>
+              Get In Touch
             </AnchorLink>
           </li>
         </ul>
