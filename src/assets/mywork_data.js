@@ -7,7 +7,7 @@ import audi from '../assets/audi.png'
 import skoda from '../assets/skoda.png'
 import proptelli from '../assets/proptelli.png'
 import profit from '../assets/profit.png'
-
+import elit from '../assets/elit.png'
 
 
 const mywork_data = [
@@ -17,12 +17,19 @@ const mywork_data = [
         w_img: relias,
         w_link: "https://relaisthalasso.com/"
     },
-     {
+      {
+        w_no: 1,
+        w_name: "Web design",
+        w_img: elit,
+        w_link: "https://elit.ai/"
+    },
+      {
         w_no: 2,
         w_name: "Web design",
         w_img: profit,
-        w_link: "https://app.profitconnect.co/"
+        w_link: "https://app.profitconnect.co"
     },
+     
     {
         w_no: 3,
         w_name: "Web design",
