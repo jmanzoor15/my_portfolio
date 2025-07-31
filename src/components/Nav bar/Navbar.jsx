@@ -24,7 +24,7 @@ const Navbar = () => {
         </div>
 
         <ul className="nav-menu">
-          {['home', 'about', 'services', 'mywork', ''].map((item) => (
+          {['dome', 'about', 'services', 'mywork', ''].map((item) => (
             <li key={item}>
               <AnchorLink className='anchor-link' href={`#${item}`} offset={50}>
                 <p onClick={() => handleMenuClick(item)}>
