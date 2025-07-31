@@ -6,7 +6,7 @@ import aiscore from '../assets/aiscore.png'
 import audi from '../assets/audi.png'
 import skoda from '../assets/skoda.png'
 import proptelli from '../assets/proptelli.png'
-
+import profit from '../assets/profit.png'
 
 
 
@@ -17,38 +17,44 @@ const mywork_data = [
         w_img: relias,
         w_link: "https://relaisthalasso.com/"
     },
-    {
+     {
         w_no: 2,
+        w_name: "Web design",
+        w_img: profit,
+        w_link: "https://app.profitconnect.co/"
+    },
+    {
+        w_no: 3,
         w_name: "Web design",
         w_img: casakey,
         w_link: "https://casakeyre.com/"
     },
     {
-        w_no: 3,
+        w_no: 4,
         w_name: "Web design",
         w_img: keylease,
         w_link: "https://keylease.ae/"
     },
     {
-        w_no: 4,
+        w_no: 5,
         w_name: "Web design",
         w_img: aiscore,
         w_link: "https://www.aiscore.com/"
     },
     {
-        w_no: 5,
+        w_no: 6,
         w_name: "Web design",
         w_img: audi,
         w_link: "https://audi-pilot.fr/connexion?redirect=/"
     },
     {
-        w_no: 6,
+        w_no: 7,
         w_name: "Web design",
         w_img: proptelli, 
         w_link: "https://proptelli.com/"
     },
        {
-        w_no: 7,
+        w_no: 8,
         w_name: "Web design",
         w_img: skoda,
         w_link:  "https://skoda-pilot.fr/connexion?redirect=/"
