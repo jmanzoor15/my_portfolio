@@ -13,7 +13,7 @@ const Hero = () => {
     <div id="home" className="hero">
       <img src={hero_profile} alt="Profile" className="hero-img" />
       <h1>
-        <span>{`I'm ${name},`}</span> frontend developer based in {location}
+        <span>{`I'm ${name},`}</span> Software developer based in {location}
       </h1>
       <p>{aboutDetailed}</p>
       <div className="hero-action">
