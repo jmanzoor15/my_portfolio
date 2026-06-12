@@ -1,14 +1,14 @@
 const portfolioData = {
   profile: {
     name: "Junaid Mir",
-    title: "Frontend Developer",
+    title: "Software Developer",
     location: "UAE",
     profileImage: "assets/images/junaid_img.peg"
   },
   about: {
-    brief: "**I'm Junaid, frontend developer based in UAE**",
-    detailed1: "I'm Junaid Mir, a passionate Frontend Developer with over a 5+ of experience in building responsive and user-friendly applications. Skilled in React, Next, React Native, Vue, Nuxt, and Wordpress, I've delivered multiple live projects across web platforms.",
-    detailed2: "**I am a passionate Frontend Developer with over a 5+ of professional experience. I've worked on several client-based and office projects using technologies like React, Vue, and Wordpress.**\n**My dedication and curiosity drive me to keep learning and deliver high-quality, responsive, and engaging user interfaces.**"
+    brief: "**I'm Junaid, Software developer based in UAE**",
+    detailed1: "I'm Junaid Mir, a passionate Software Developer with over a 6+ of experience in building responsive and user-friendly applications. Skilled in React, Next, React Native, Vue, Nuxt, and Wordpress, I've delivered multiple live projects across web platforms.",
+    detailed2: "**I am a passionate Software Developer with over a 6+ of professional experience. I've worked on several client-based and office projects using technologies like React,Php Laravel, Vue, and Wordpress.**\n**My dedication and curiosity drive me to keep learning and deliver high-quality, responsive, and engaging user interfaces.**"
   },
   skills: [
     { name: "React JS", percentage: 85, icon: "flutter" },
